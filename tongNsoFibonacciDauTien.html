@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sum=0;
+    const number = parseInt(prompt('SO luong so can in ra: '));
+    let n1 = 0, n2 = 1, n3;
+    for (let i = 1; i <= number; i++) {
+        //document.write(n1+" ");
+        //sum=sum+n1;
+        n3 = n1 + n2;
+        n1 = n2;
+        n2 = n3;
+    }
+    document.write("Tong "+number+" so fibo dau tien la "+sum);
+
+</script>
+</body>
+</html>
